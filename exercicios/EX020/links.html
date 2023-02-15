@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: gray;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::after {
+            content: [link];
+            text-decoration-line: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        .especial {
+            background-color: blueviolet;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCZZ0z5pX5wUxYxYnQ8xsB3w" target="_blank">Youtube Canal</a></li>
+        <li><a href="https://www.youtube.com/watch?v=VQdPXmmQpys" target="_blank" class="especial">Melhor Video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Zlv4JX6IEHw" target="_blank">Ultimo video</a></li>
+    </ul>
+</body>
+</html>
